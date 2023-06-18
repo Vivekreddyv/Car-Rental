@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import './style.css'
+import './pages/pagesstyle.css'
 import Quickeasy from './quickeasy';
 import Vehicles from './vehiclemodels';
 import Banner from './banner';
@@ -12,6 +13,11 @@ import Faq from './faq';
 import Store from './store';
 import Navlandbook from './navlandbook';
 import Footer from './footer';
+import About from './pages/about';
+import Carmodels from './pages/carmodels';
+import Contact from './pages/contact';
+import Ourteam from './pages/ourteam';
+import Testimonials from './pages/testimonals';
 import {createBrowserRouter,Outlet,RouterProvider} from "react-router-dom";
 const Page=()=>{
     return(
@@ -24,7 +30,7 @@ const Page=()=>{
 const Main=()=>{
     return(
         <div>
-          <Navlandbook/>
+  <Navlandbook/>
   <Quickeasy/>
   <Vehicles/>
   <Banner/>
@@ -45,6 +51,26 @@ const router = createBrowserRouter([
           element: <Main />,
         },
       ],
+    },
+    {
+      path: "/about",
+      element: <About />,
+    },
+    {
+      path: "/carmodels",
+      element: <Carmodels />,
+    },
+    {
+      path: "/ourteam",
+      element: <Ourteam />,
+    },
+    {
+      path: "/contact",
+      element: <Contact />,
+    },
+    {
+      path: "/testimonals",
+      element: <Testimonials />,
     },
   ]);
   

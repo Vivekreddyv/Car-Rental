@@ -9,11 +9,11 @@ const Nav = () => {
       <div>
         <ul className='navlist'>
             <Link to='/'><li>Home</li></Link>
-            <Link to='/'><li>About</li></Link>
-            <Link to='/'><li>Vehicle Models</li></Link>
-            <Link to='/'><li>Testimonals</li></Link>
-            <Link to='/'><li>Our Team</li></Link>
-            <Link to='/'><li>Contact</li></Link>
+            <Link to='/about'><li>About</li></Link>
+            <Link to='/carmodels'><li>Vehicle Models</li></Link>
+            <Link to='/testimonals'><li>Testimonals</li></Link>
+            <Link to='/ourteam'><li>Our Team</li></Link>
+            <Link to='/contact'><li>Contact</li></Link>
         </ul>
       </div>
       <div>
