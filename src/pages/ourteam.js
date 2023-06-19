@@ -1,7 +1,13 @@
-import Nav from '../nav.js'
+import Footer from '../footer.js'
+import Navpagecomponent from './components/navpagecomponent.js'
+import Pagesbanner from './components/pagesbanner.js'
 const Ourteam=()=>{
     return(
-        <Nav/>
+        <div>
+        <Navpagecomponent name="Our Team"/>
+        <Pagesbanner/>
+        <Footer/>
+        </div>
     )
 }
 export default Ourteam

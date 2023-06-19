@@ -357,6 +357,7 @@ margin-left: 35px;
     border: none;
     margin:0 0 10px 0;
     background-color: transparent;
+    font-weight: 500;
 }
 .footerbtn:hover{
     color: #ff4d30;
@@ -388,6 +389,7 @@ margin-left: 35px;
     cursor: pointer;
     font-family: 'Rubik', sans-serif;
     margin-top: 10px;
+    font-weight: 500;
 }
 .footersubmit:hover{
     background-color: #fa4226;
