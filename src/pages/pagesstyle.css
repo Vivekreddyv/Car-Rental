@@ -1,0 +1,171 @@
+.aboutbg{
+    position: absolute;
+    z-index: -1;
+    opacity: 10%;
+    object-fit: contain;
+    width: 100%;
+    /* transform: scale(120%); */
+}
+.aboutcompany{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 3rem;
+}
+.aboutcompany1{
+    width: 33%;
+}
+.aboutcompany2{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutcompany3{
+    margin-top: 25px;
+    margin-left: 7px;
+}
+.aboutcompany3 img{
+    transform: scale(110%);
+}
+.aboutcompany4{
+    display: flex;
+}
+.aboutbanner{
+    background-color: #2d2d2d;
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    border-bottom: 25px solid #282828;
+    border-top: 25px solid #282828;
+}
+.aboutbanner1{
+    width: 100%;
+    height: 151px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.aboutbanner img{
+    opacity: 10%;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    width: 100%;
+}
+/* CAR MODELS */
+.cars{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.carmodels{
+    width: 25%;
+    border: solid 1px rgba(128, 128, 128, 0.486) ;
+}
+.carmodels1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.bookridebtn{
+    background-color: #ff4d30;
+    border-radius: 0.3rem;
+    box-shadow: 0 10px 15px 0 rgba(255,83,48,.35);
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: all 0.3s;
+    font-family: 'poppins';
+    width: 288px;
+    height: 67px;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+}
+.bookridebtn:hover{
+    background-color: #fa4226;
+    box-shadow: 0 10px 15px 0 rgba(255,83,48,.6);
+    transition: all 0.3s;
+}
+.line{
+    width: 80%;
+    height: 1px;
+    border-top:  solid 1px rgba(53, 51, 51, 0.322);
+    margin-bottom: 20px;
+}
+/* OUR TEAM */
+.ourteam{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: 3%;
+}
+.ourteam1{
+    box-shadow: 0 20px 10px 0 rgba(0,0,0,.08);
+    margin-top: 20px;
+}
+.ourteam1 img{
+    width: 90%;
+}
+.ourteam2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* CONTACT */
+.contactbtn{
+    font-family:'rubik';
+    font-size: 1.1rem;
+    border: none;
+    margin:0 0 10px 0;
+    background-color: transparent;
+    transition: all 0.3s;
+    font-weight: 400;
+}
+.contactbtn:hover{
+    color: #ff4d30;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.contact{
+    display: flex;
+    gap: 15rem;
+    margin-left: 4%;
+}
+.contact1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: baseline;
+}
+.contactinput{
+    font-size: 1rem;
+    padding: 19px 30px;
+    background-color: #312f2f13;
+    border: none;
+    color: black;
+    font-family: 'rubik';
+    font-weight: 400;
+    width: 117%;
+}
+.sendmsg{
+    background-color: #ff4d30;
+    width: 130%;
+    height: 49px;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 20px;
+    margin-right: 25px;
+    font-weight: 600;
+    border-radius: 0.3rem;
+    box-shadow: 0 10px 15px 0 rgba(255,83,48,.35);
+}
+.sendmsg:hover { 
+    box-shadow: 0 10px 15px 0 rgba(255,83,48,.5);
+}

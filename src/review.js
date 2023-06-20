@@ -1,4 +1,5 @@
-import reviewimg1 from './utils/demo.jpg'
+import tonystark from './utils/tonystark.jpg'
+import justinbieber from './utils/justinbieber.jpg'
 const Review=()=>{
     return(
         <div>
@@ -14,10 +15,10 @@ const Review=()=>{
                     </div>
                     <div  className="review4">
                         <div className='review5'>
-                        <img style={{borderRadius:'50%',width:'4.5rem',height:'4.5rem'}} src={reviewimg1} alt=""></img>
+                        <img style={{borderRadius:'50%',width:'4.5rem',height:'4.5rem'}} src={tonystark} alt=""></img>
                         <div className='review6'>
-                            <h3 style={{fontFamily:'poppins',margin:'0 0 0 0'}}>Parry Hotter</h3>
-                            <p style={{fontFamily:'rubik',margin:'0 0 0 0'}}>Belgrade</p>
+                            <h3 style={{fontFamily:'poppins',margin:'0 0 0 0'}}>Tony Stark</h3>
+                            <p style={{fontFamily:'rubik',margin:'0 0 0 0'}}>Bengaluru</p>
                             </div>
                         </div>
                          <i style={{fontSize:'4em',marginTop:'10px',color:'#ff4d30'}} className='reviewicon' class="fa-solid fa-quote-right"></i>
@@ -25,14 +26,14 @@ const Review=()=>{
                 </div>
                 <div  className="review3">
                     <div>
-                        <p style={{fontFamily:'poppins',fontSize:'1.35rem',fontWeight:'500'}}>"We rented a car from this website and had an amazing experience! The booking was easy and the rental rates were very affordable. "</p>
+                        <p style={{fontFamily:'poppins',fontSize:'1.35rem',fontWeight:'500'}}>"The car was in great condition and made our trip even better. Highly recommend for this car rental website!"</p>
                     </div>
                     <div  className="review4">
                         <div className='review5'>
-                        <img style={{borderRadius:'50%',width:'4.5rem',height:'4.5rem'}} src={reviewimg1} alt=""></img>
+                        <img style={{borderRadius:'50%',width:'4.5rem',height:'4.5rem'}} src={justinbieber} alt=""></img>
                         <div className='review6'>
-                            <h3 style={{fontFamily:'poppins',margin:'0 0 0 0'}}>Parry Hotter</h3>
-                            <p style={{fontFamily:'rubik',margin:'0 0 0 0'}}>Belgrade</p>
+                            <h3 style={{fontFamily:'poppins',margin:'0 0 0 0'}}>Justin Bieber</h3>
+                            <p style={{fontFamily:'rubik',margin:'0 0 0 0'}}>Mumbai</p>
                             </div>
                         </div>
                          <i style={{fontSize:'4em',marginTop:'10px',color:'#ff4d30'}} className='reviewicon' class="fa-solid fa-quote-right"></i>
