@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom'
 const Cardata=[
     {
         name:'Audi A1',
-        price:'45',
+        price:'4000',
         car:'Audi',
         transmission:'Manual',
         fuel:'Petrol',
@@ -19,7 +19,7 @@ const Cardata=[
     },
     {
         name:'Golf 6',
-        price:'37',
+        price:'3000',
         car:'Volkswagen',
         transmission:'Manual',
         fuel:'Diesel',
@@ -27,7 +27,7 @@ const Cardata=[
     },
     {
         name:'Camry',
-        price:'30',
+        price:'2500',
         car:'Toyota',
         transmission:'Automatic',
         img: img3,
@@ -35,7 +35,7 @@ const Cardata=[
     },
     {
         name:'BMW 320',
-        price:'35',
+        price:'3000',
         car:'BMW',
         transmission:'Manual',
         img: img4,
@@ -43,7 +43,7 @@ const Cardata=[
     },
     {
         name:'Benz GLK',
-        price:'50',
+        price:'4500',
         car:'Mercedes',
         transmission:'Manual',
         img: img5,
@@ -51,7 +51,7 @@ const Cardata=[
     },
     {
         name:'Passat CC',
-        price:'25',
+        price:'2000',
         car:'Volkswagen',
         transmission:'Automatic',
         img: img6,
@@ -71,7 +71,7 @@ const Carcard=({data})=>{
                     <p style={{fontFamily:'poppins',color:'#777777',fontSize:'18px',fontWeight:'500'}}><span style={{color:'black'}}><i class="fa-solid fa-car-side"></i></span>&nbsp;&nbsp;&nbsp;{data.transmission}</p>
                 </div>
                 <div style={{width:'29%'}}>
-                    <h1 style={{fontFamily:'poppins',lineHeight:'1',fontSize:'28px',textAlign:'end'}}>${data.price}<br></br><span style={{fontSize:'1rem',fontWeight:'400'}}>per day</span></h1>
+                    <h1 style={{fontFamily:'poppins',lineHeight:'1',fontSize:'28px',textAlign:'end'}}><i style={{fontSize:'26px'}} class="fa-solid fa-indian-rupee-sign"></i>{data.price}<br></br><span style={{fontSize:'1rem',fontWeight:'400'}}>per day</span></h1>
                     <p style={{fontFamily:'poppins',color:'#777777',fontSize:'18px',fontWeight:'500',textAlign:'end'}}>4/5&nbsp;&nbsp;&nbsp;<span style={{color:'black'}}><i class="fa-solid fa-car-side"></i></span></p>
                     <p style={{fontFamily:'poppins',color:'#777777',fontSize:'18px',fontWeight:'500',textAlign:'end'}}>{data.fuel}&nbsp;&nbsp;&nbsp;<span style={{color:'black'}}><i class="fa-solid fa-car-side"></i></span></p>
                 </div>

@@ -156,6 +156,7 @@ margin-left: 3%;
 justify-content: center;
 box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
 margin-left: 35px;
+background-image: url('./utils/carbookingbg.png');
 }
 .booking2{
     display: flex;
@@ -239,6 +240,38 @@ margin-left: 35px;
 }
 .vehicles1{
     margin-top: 130px;
+}
+.vehiclebtn{
+    background-color: #e9e9e9;
+    width: 265px;
+    height: 60px;
+    font-size: 20px;
+    font-family: 'poppins';
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: none;
+    margin-bottom: 10px;
+}
+.vehiclebtn:hover{
+    background-color: #ff4d30;
+    color: white;
+}
+.reservebtn{
+    width: 250px;
+    height: 50px;
+    background-color: #ff4d30;
+    color: white;
+    border: none;
+    font-family: 'poppins';
+    font-size: 1.2rem;
+    font-weight: 600;
+    box-shadow: 6px 6px 0 #efe9e9;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.reservebtn:hover{
+    background-color: #e9381d;
 }
 /* BANNER */
 .banner{
@@ -380,13 +413,14 @@ margin-left: 35px;
     cursor: pointer;
 }
 .footeremail{
-    width: 292px;
+    width: 258px;
     height: 48px;
     background-color: #ececec;
     font-family: 'rubik';
     border: none;
     color: #706f7b;
     font-size: 15px;
+    padding-left: 2rem;
 }
 .footersubmit{
     background-color: #ff4d30;
