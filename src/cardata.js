@@ -91,4 +91,3 @@ export const CAR_DATA = [
     },
   ],
 ];
-export default CAR_DATA

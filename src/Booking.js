@@ -1,6 +1,6 @@
 const Booking=()=>{
     return(
-        <div>
+        <div style={{display:'flex',justifyContent:'center'}}>
              <div className="booking1">
             <div>
                 <h2 style={{fontFamily:'poppins'}}>Book a car</h2>

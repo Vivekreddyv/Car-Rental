@@ -1,5 +1,18 @@
 import car1 from './utils/vehicle1.jpg'
+import { CAR_DATA } from './cardata'
+import { useState } from 'react'
+import Carcard from './carcard'
 const Vehicles =()=>{
+    const [active,setActive]=useState("firstcar")
+    const [colorbtn,setColorbtn]=useState("btn1")
+    const btnId=(id)=>{
+        setColorbtn(id)
+    }
+    console.log(colorbtn)
+    const coloringbtn=(id)=>{
+        return colorbtn===id?"vehiclebtn" : "vehiclebtnnonclicked"
+        
+    }
     return(
         <div className="vehicles1">
                 <div className="vehicles2">
@@ -7,21 +20,43 @@ const Vehicles =()=>{
                     <h1 style={{margin:'0 0 0 0',fontFamily:'poppins',fontSize:'2.5rem'}}>Our rental fleet</h1>
                     <p style={{fontFamily:'rubik',color:'#706f7b',textAlign:'center'}}>Choose from a variety of our amazing vehicles to rent for your next<br></br> adventure or business trip</p>
                 </div>
+                <div className='vehicles'>
                 <div style={{display:'flex',justifyContent:'space-between',margin:'0 35px'}}>
                     <div style={{display:'flex',flexDirection:'column'}}>
-                        <button className="vehiclebtn">Audi A1 S-Line</button>
-                        <button className="vehiclebtn">VW Golf 6</button>
-                        <button className="vehiclebtn">Toyota Camry</button>
-                        <button className="vehiclebtn">BMW 320 ModernLine</button>
-                        <button className="vehiclebtn">Mercedes-Benz GLK</button>
-                        <button className="vehiclebtn">VW Passat CC</button>
+                        <button className={`${coloringbtn("btn1")}`} onClick={()=>{
+                            setActive("firstcar")
+                            btnId("btn1")
+                        }}>Audi A1 S-Line</button>
+                        <button className={`${coloringbtn("btn2")}`} onClick={()=>{
+                            setActive("secondcar")
+                            btnId("btn2")
+                        }}>VW Golf 6</button>
+                        <button className={`${coloringbtn("btn3")}`} onClick={()=>{
+                            setActive("thirdcar")
+                            btnId("btn3")
+                        }}>Toyota Camry</button>
+                        <button className={`${coloringbtn("btn4")}`} onClick={()=>{
+                            setActive("fourthcar")
+                            btnId("btn4")
+                        }}>BMW 320 ModernLine</button>
+                        <button className={`${coloringbtn("btn5")}`} onClick={()=>{
+                            setActive("fifthcar")
+                            btnId("btn5")
+                        }}>Mercedes-Benz GLK</button>
+                        <button className={`${coloringbtn("btn6")}`} onClick={()=>{
+                            setActive("sixthcar")
+                            btnId("btn6")
+                        }}>VW Passat CC</button>
                     </div>
-                    <div>
-                        <img style={{transform:'scale(107%)',marginTop:'3rem',marginLeft:'20px'}} src={car1} alt=""></img>
-                    </div>
-                    <div>
-                        <button className='reservebtn'>RESERVE NOW</button>
-                    </div>
+                </div>
+                <div>
+                    {active ==="firstcar" && <Carcard data={CAR_DATA} carid={0}/>}
+                    {active ==="secondcar" && <Carcard data={CAR_DATA} carid={1}/>}
+                    {active ==="thirdcar" && <Carcard data={CAR_DATA} carid={2}/>}
+                    {active ==="fourthcar" && <Carcard data={CAR_DATA} carid={3}/>}
+                    {active ==="fifthcar" && <Carcard data={CAR_DATA} carid={4}/>}
+                    {active ==="sixcar" && <Carcard data={CAR_DATA} carid={5}/>}
+                </div>
                 </div>
         </div>
     )

@@ -92,7 +92,7 @@ a:active { text-decoration: none; }
 .landing{
     display: flex;
     align-items: center;
-    margin: 40px 0 100px 40px;
+    margin: 40px 50px 100px 90px;
 }
 .landingimg{
     width: 100%;
@@ -142,20 +142,15 @@ a:active { text-decoration: none; }
 }
 /* BOOKING */
 .booking1{
-    display: flex;
-    flex-direction: column;
-}
-.booking1{
 display: flex;
-width: 94.5%;
+width: 86.5%;
 height: 350px;
+flex-direction: column;
 display: flex;
 background-color: white;
 align-items: center;
-margin-left: 3%;
 justify-content: center;
 box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
-margin-left: 35px;
 background-image: url('./utils/carbookingbg.png');
 }
 .booking2{
@@ -241,8 +236,12 @@ background-image: url('./utils/carbookingbg.png');
 .vehicles1{
     margin-top: 130px;
 }
+.vehicles{
+    display: flex;
+}
 .vehiclebtn{
-    background-color: #e9e9e9;
+    background-color: #ff4d30;
+    color: white;
     width: 265px;
     height: 60px;
     font-size: 20px;
@@ -253,9 +252,21 @@ background-image: url('./utils/carbookingbg.png');
     border: none;
     margin-bottom: 10px;
 }
-.vehiclebtn:hover{
+.vehiclebtnnonclicked{
+    width: 265px;
+    height: 60px;
+    font-size: 20px;
+    font-family: 'poppins';
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: none;
+    margin-bottom: 10px;
+}
+.vehiclebtnnonclicked:hover{
     background-color: #ff4d30;
     color: white;
+    transition: all 0.2s;
 }
 .reservebtn{
     width: 250px;
@@ -368,16 +379,60 @@ background-image: url('./utils/carbookingbg.png');
     justify-content: center;
     margin-left: 20px;
 }
+/* FAQ */
+.faqmain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./utils/faq.png');
+    background-repeat: no-repeat;
+    background-position: 0 95%;
+}
+.faq{
+    width: 53%;
+}
+.accordion{
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,.1);
+    cursor: pointer;
+    margin-top: 50px;
+}
+.accordion1{
+    border-top: 1px solid rgba(128, 128, 128, 0.085);
+}
+.accordionq{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 40px;
+    transition-delay:  0.05s;
+    transition: 0.01s;
+    font-family: 'poppins';
+    font-size: 1.1rem;
+}
+.accordionqactive{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    color: white;
+    background-color: #ff4d30;
+    box-shadow: 0 10px 15px 0 rgba(255,83,48,.35);
+    transition: 0.05s;
+    transition-delay: 0.01s;
+    font-family: 'poppins';
+    font-size: 1.1rem;
+}
 /* STORE */
 .store{
     display: flex;
     background-image: url('./utils/store.png');
     height: 35rem;
-    padding: 0 2.5rem;
+    padding: 0 8.5rem;
     background-repeat: no-repeat;
     background-size: 110%;
     background-position: 40% -25%;
-    margin-top: 500px;
+    margin-top: 100px;
+    background-color: #f8f8f8;
 }
 .store1{
     width: 43%;
@@ -388,6 +443,7 @@ background-image: url('./utils/carbookingbg.png');
 /* FOOTER */
 .footer{
     display: flex;
+    margin: 0px 50px ;
 }
 .footer1{
     width: 25%;
@@ -397,7 +453,7 @@ background-image: url('./utils/carbookingbg.png');
     font-family:'rubik';
     font-size: 1.1rem;
     border: none;
-    margin:0 0 10px 0;
+    margin:0 50px 10px 0;
     background-color: transparent;
     transition: all 0.3s;
     font-weight: 500;

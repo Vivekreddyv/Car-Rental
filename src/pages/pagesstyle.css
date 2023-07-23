@@ -100,12 +100,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     margin-left: 3%;
 }
 .ourteam1{
     box-shadow: 0 20px 10px 0 rgba(0,0,0,.08);
     margin-top: 20px;
+    background-color: #f8f8f8;
 }
 .ourteam1 img{
     width: 90%;
@@ -134,12 +135,14 @@
     display: flex;
     gap: 15rem;
     margin-left: 4%;
+    margin-bottom: 15rem;
 }
 .contact1{
     display: flex;
     flex-direction: column;
     width: 30%;
     align-items: baseline;
+    margin-left: 3rem;
 }
 .contactinput{
     font-size: 1rem;
