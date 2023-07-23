@@ -1,12 +1,15 @@
 import { useState } from "react"
 
 const Faq=()=>{
-    const [active,setActive]=useState("q1")
+    const [active,setActive]=useState("")
     const activeq=(id)=>{
         setActive(active===id?"":id)
     }
     const activequestion=(id)=>{
         return(active===id?"accordionqactive":"accordionq")
+    }
+    const activeanswer=(id)=>{
+        return(active===id?"accordionaactive":"accordiona")
     }
     return(
         <div className="faqmain">
@@ -22,13 +25,15 @@ const Faq=()=>{
                 <h4 style={{fontWeight:'500'}}>1. What is special about comparing rental car deals?</h4>
                 <i class="fa-solid fa-angle-down"></i>
                 </div>
-                {active==="q1"&& <p style={{color:'#706f7b',padding:'15px 40px 30px 40px',lineHeight:'1.7',fontFamily:'rubik'}} onClick={()=>activeq("q1")}>Comparing rental car deals is important as it helps find the
+                <div className={`${activeanswer("q1")}`} onClick={()=>activeq("q1")}>
+                    {active===active &&<p>Comparing rental car deals is important as it helps find the
                   best deal that fits your budget and requirements, ensuring you
                   get the most value for your money. By comparing various
                   options, you can find deals that offer lower prices,
                   additional services, or better car models. You can find car
                   rental deals by researching online and comparing prices from
                   different rental companies.</p>}
+                  </div>
             </div>
             <div className="accordion1">
             <div className={`${activequestion("q2")}`} onClick={()=>activeq("q2")}>
