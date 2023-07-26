@@ -17,7 +17,7 @@ const Vehicles =()=>{
                 <div className="vehicles2">
                     <h2 style={{fontFamily:'rubik',margin:'0 0 0 0'}}>Vehicle Models</h2>
                     <h1 style={{margin:'0 0 0 0',fontFamily:'poppins',fontSize:'2.5rem'}}>Our rental fleet</h1>
-                    <p style={{fontFamily:'rubik',color:'#706f7b',textAlign:'center'}}>Choose from a variety of our amazing vehicles to rent for your next<br></br> adventure or business trip</p>
+                    <p style={{fontFamily:'rubik',color:'#706f7b',textAlign:'center',lineHeight:'1.4'}}>Choose from a variety of our amazing vehicles to rent for your next<br></br> adventure or business trip</p>
                 </div>
                 <div className='vehicles'>
                 <div style={{display:'flex',justifyContent:'space-between',margin:'0 35px'}}>
@@ -48,14 +48,12 @@ const Vehicles =()=>{
                         }}>VW Passat CC</button>
                     </div>
                 </div>
-                <div>
                     {active ==="firstcar" && <Carcard data={CAR_DATA} carid={0}/>}
                     {active ==="secondcar" && <Carcard data={CAR_DATA} carid={1}/>}
                     {active ==="thirdcar" && <Carcard data={CAR_DATA} carid={2}/>}
                     {active ==="fourthcar" && <Carcard data={CAR_DATA} carid={3}/>}
                     {active ==="fifthcar" && <Carcard data={CAR_DATA} carid={4}/>}
                     {active ==="sixthcar" && <Carcard data={CAR_DATA} carid={5}/>}
-                </div>
                 </div>
         </div>
     )

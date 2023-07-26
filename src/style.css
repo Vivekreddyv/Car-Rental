@@ -238,6 +238,8 @@ background-image: url('./utils/carbookingbg.png');
 }
 .vehicles{
     display: flex;
+    justify-content: center;
+    gap: 5rem;
 }
 .vehiclebtn{
     background-color: #ff4d30;
@@ -280,9 +282,38 @@ background-image: url('./utils/carbookingbg.png');
     box-shadow: 6px 6px 0 #efe9e9;
     transition: all 0.3s;
     cursor: pointer;
+    margin-top: 1rem;
 }
 .reservebtn:hover{
     background-color: #e9381d;
+}
+.firsttab{
+    border-right: 2px solid rgb(112, 111, 123);
+    border-left: 2px solid rgb(112, 111, 123);
+    width: 52%;
+}
+.secondtab{
+    border-right: 2px solid rgb(112, 111, 123);
+    width: 48%;
+}
+table{
+    width: 250px;
+    height: 300px;
+}
+th{
+    background-color: #ff4d30;
+    color: white;
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: 400;
+    width: 250px;
+    height: 48px;
+}
+td{
+    border-bottom: 2px solid rgb(112, 111, 123);
+    font-family: poppins;
+    text-align: center;
+    font-size: 14px;
 }
 /* BANNER */
 .banner{
