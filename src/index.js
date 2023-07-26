@@ -19,6 +19,7 @@ import Contact from './pages/contact';
 import Ourteam from './pages/ourteam';
 import Testimonials from './pages/testimonals';
 import {createBrowserRouter,Outlet,RouterProvider} from "react-router-dom";
+
 const Page=()=>{
     return(
         <div>

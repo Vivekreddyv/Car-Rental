@@ -1,4 +1,3 @@
-import car1 from './utils/vehicle1.jpg'
 import { CAR_DATA } from './cardata'
 import { useState } from 'react'
 import Carcard from './carcard'
@@ -55,7 +54,7 @@ const Vehicles =()=>{
                     {active ==="thirdcar" && <Carcard data={CAR_DATA} carid={2}/>}
                     {active ==="fourthcar" && <Carcard data={CAR_DATA} carid={3}/>}
                     {active ==="fifthcar" && <Carcard data={CAR_DATA} carid={4}/>}
-                    {active ==="sixcar" && <Carcard data={CAR_DATA} carid={5}/>}
+                    {active ==="sixthcar" && <Carcard data={CAR_DATA} carid={5}/>}
                 </div>
                 </div>
         </div>
