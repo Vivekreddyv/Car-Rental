@@ -1,0 +1,133 @@
+/* media queries */
+
+@media screen and (max-width:700px) {
+    .navlist {
+        display: none;
+    }
+
+    .navland {
+        background-image: none;
+    }
+
+    .landing {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        margin-bottom: 50px;
+        margin-top: 10rem;
+    }
+
+    .landingimg {
+        display: none;
+    }
+
+    .landingtext {
+        width: 100%;
+    }
+
+    .booking1 {
+        width: 90%;
+        height: 730px;
+    }
+
+    .bookingcar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bookingdate {
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .quick2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .quick3{
+        width: 23rem;
+        height: 21rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .vehicles2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .vehicles1{
+        margin-top: 130px;
+    }
+    .vehicles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5rem;
+    }
+    .carcard{
+        display: flex;
+        flex-direction: column;
+        gap: 6.5rem;
+        align-items: center;
+        margin-left: 5vw;
+    }
+    .vehiclebtn{
+        width: 88vw;
+    }
+    .vehiclebtnnonclicked{
+        width: 88vw;
+    }
+    .why{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .why1{
+        width: 100%;
+        text-align: center;
+
+    }
+    .why2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .why3{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        align-items: center;
+        width: 80vw;
+        text-align: center;
+
+    }
+    .why3 img{
+        transform: scale(105%);
+        margin-top: 25px;
+        margin-right: 15px;
+    }
+    .whybtn{
+        background-color: #ff4d30;
+        width: 166px;
+        height: 59px;
+        border: none;
+        color: white;
+        border-radius: 3px;
+        cursor: pointer;
+        font-family: 'poppins', sans-serif;
+        margin-top: 20px;
+        margin-right: 25px;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+}

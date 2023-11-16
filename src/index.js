@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import './style.css'
+import './stylemobile.css'
 import './pages/pagesstyle.css'
 import Quickeasy from './quickeasy';
 import Vehicles from './vehiclemodels';

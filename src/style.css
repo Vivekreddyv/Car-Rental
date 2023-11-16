@@ -213,6 +213,7 @@ background-image: url('./utils/carbookingbg.png');
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 .quick2{
     display: flex;
@@ -228,6 +229,10 @@ background-image: url('./utils/carbookingbg.png');
     align-items: center;
 }
 /* VEHICLES */
+.carcard{
+    display: flex;
+    gap: 6.5rem;
+}
 .vehicles2{
     display: flex;
     flex-direction: column;

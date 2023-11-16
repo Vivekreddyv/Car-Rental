@@ -2,7 +2,7 @@ const Carcard=({data,carid})=>{
     return(
         <div style={{display:'flex'}}>
             {data[carid].map((data)=>(
-                <div style={{display:'flex',gap:'6.5rem'}}>
+                <div className="carcard">
                     <div style={{width:'32rem',height:'20.5rem'}}>
                     <img style={{width:'32rem',height:'20.5rem',marginTop:'5rem'}} src={data.img} alt=""></img>
                     </div>
