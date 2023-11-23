@@ -462,7 +462,7 @@ td{
     max-height: 0;
     overflow: hidden;
     padding: 0px 40px 0px 40px;
-    transition: 0.4s ease;
+    transition: 0.6s ease;
     font-family: 'rubik';
     line-height: 1.7;
     color: #706f7b;
@@ -473,7 +473,7 @@ td{
     line-height: 1.7;
     font-family: 'rubik';
     max-height: 20rem;
-  transition: 0.4s ease;
+  transition: 0.6s ease;
 }
 /* STORE */
 .store{
@@ -493,6 +493,9 @@ td{
 .store1 img:hover{
     cursor: pointer;
 }
+.store2 img:nth-child(1){
+    margin: 25px 30px 0 0;
+}
 /* FOOTER */
 .footer{
     display: flex;
@@ -501,6 +504,9 @@ td{
 .footer1{
     width: 25%;
     padding: 2.2rem;
+}
+.footer div:nth-child(1){
+    width: 40%;
 }
 .footerbtn{
     font-family:'rubik';

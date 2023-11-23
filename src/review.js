@@ -5,8 +5,8 @@ const Review=()=>{
         <div style={{backgroundColor:'#f8f8f8',marginTop:'50px'}}>
             <div className="review1">
                 <h3 style={{fontFamily:'rubik',margin:'0 0 0 0',fontSize:'1.25rem',marginTop:'100px'}}>Reviewed by People</h3>
-                <h1 style={{fontFamily:'poppins',margin:'0 0 0 0',fontSize:'2.7rem'}}>Client's Testimonials</h1>
-                <p style={{fontFamily:'rubik',color:'#706f7b',textAlign:'center',lineHeight:'1.5'}}>Discover the positive impact we've made on the our clients by reading through their testimonials. Our clients have experienced our service and results, and they're eager to share their positive experiences with you.</p>
+                <h1 style={{fontFamily:'poppins',margin:'0 0 0 0',fontSize:'2.7rem',textAlign:'center'}}>Client's Testimonials</h1>
+                <p style={{fontFamily:'rubik',color:'#706f7b',textAlign:'center',lineHeight:'1.5',textAlign:'center'}}>Discover the positive impact we've made on the our clients by reading through their testimonials. Our clients have experienced our service and results, and they're eager to share their positive experiences with you.</p>
             </div>
             <div className="review2">
                 <div className="review3">

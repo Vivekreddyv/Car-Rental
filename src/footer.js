@@ -1,7 +1,7 @@
 const Footer=()=>{
     return(
         <div className="footer">
-            <div style={{width:'40%'}} className="footer1">
+            <div className="footer1">
                 <h2 style={{fontFamily:'poppins'}}>CAR <span>Rental</span></h2>
                 <p  style={{fontFamily:'poppins',color:'#706f7b',marginBottom:'40px'}}>We offers a big range of vehicles for all your driving needs. We have the perfect car to meet your needs.</p>
                 <button className="footerbtn"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;+91-9876543210</button>
