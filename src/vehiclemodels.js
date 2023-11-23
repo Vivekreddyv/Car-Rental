@@ -20,7 +20,7 @@ const Vehicles = () => {
                 <p style={{ fontFamily: 'rubik', color: '#706f7b', textAlign: 'center', lineHeight: '1.4' }}>Choose from a variety of our amazing vehicles to rent for your next<br></br> adventure or business trip</p>
             </div>
             <div className='vehicles'>
-                <div style={{ display: 'flex', justifyContent: 'space-between', margin: '0 35px' }}>
+                <div>
                     <div style={{ display: 'flex', flexDirection: 'column' }}>
                         <button className={`${coloringbtn("btn1")}`} onClick={() => {
                             setActive("firstcar")

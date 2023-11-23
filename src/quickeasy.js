@@ -3,7 +3,7 @@ import qe2 from './utils/qe2.png'
 import qe3 from './utils/qe3.png'
 const Quickeasy = () => {
     return (
-        <div>
+        <div style={{display:'flex',alignItems:'center',flexDirection:'column'}}>
             <div>
                 <div className="quick1">
                     <h3 style={{ margin: "150px 0 0 0", fontSize: "1.4rem", fontFamily: 'rubik', color: '#010103', fontWeight: '600' }}>Plan your trip now</h3>

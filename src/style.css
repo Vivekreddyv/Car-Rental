@@ -233,6 +233,20 @@ background-image: url('./utils/carbookingbg.png');
     display: flex;
     gap: 6.5rem;
 }
+.carcard img{
+    width: 32rem;
+    height: 20.5rem;
+    margin-top: 5rem;
+}
+.carcard div:nth-child(1){
+    width: 32rem;
+    height: 20.5rem;
+}
+.vehicles div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px;
+}
 .vehicles2{
     display: flex;
     flex-direction: column;
@@ -335,6 +349,12 @@ td{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.banner1 h1{
+    font-size: 3.3rem;
+}
+.banner1 h2{
+    font-size: 1.5rem;
 }
 .bannerimg{
     width: 100%;
