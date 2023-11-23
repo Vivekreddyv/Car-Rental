@@ -18,8 +18,8 @@
         display: flex;
         flex-direction: column;
         margin: 30px;
-        margin-bottom: 50px;
-        margin-top: 2vh;
+        margin-bottom: 8vh;
+        margin-top: 13vh;
     }
 
     .landingimg {
@@ -46,6 +46,7 @@
     .booking1 {
         width: 90%;
         height: 750px;
+        margin-top: 6vh;
     }
 
     .bookingcar {
@@ -306,7 +307,7 @@
     }
 
     .footeremail {
-        width: 80vw;
+        width: 74vw;
         height: 48px;
         text-align: center;
         padding-left: 0rem;
@@ -315,10 +316,11 @@
         margin-left: 2vw;
     }
     .footersubmit {
-        width: 80vw;
+        width: 74vw;
         height: 52px;
         margin-bottom: 5vh;
     }
+    
 
     .bannerimg {
         width: 90%;
@@ -326,6 +328,51 @@
         margin: 100px 0;
         margin-left: 4vw;
         transform: scale(110%);
+    }
+    .hamburger{
+        font-size: 1.7rem;
+        border: none;
+        background-color: #ffffff;
+        margin-right: 4vw;
+        margin-top: 2vh;
+    }
+    .hamburgermenu{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #ffffff;
+        z-index: 1;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        list-style: none;
+        font-size: 2rem;
+        gap: 3vh;
+    }
+    .hamburgermenu1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        list-style: none;
+        font-size: 1.5rem;
+        gap: 3vh;
+        font-family: poppins;
+        font-weight: 500;
+    }
+    .closehamburger{
+        position: absolute;
+        right: 9vw;
+        top: 5vh;
+        z-index: 1;
+        color: #ff4d30;
+        border: none;
+        font-size: 2rem;
+        background-color: #ffffff;
+
     }
 
 }
